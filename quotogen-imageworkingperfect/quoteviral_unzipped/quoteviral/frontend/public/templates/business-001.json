@@ -1,0 +1,9 @@
+{
+  "id": "business-001",
+  "name": "Professional Frame",
+  "category": "business",
+  "language": "en",
+  "dimensions": "1200x630",
+  "tags": ["professional", "clean", "corporate"],
+  "preview": "/templates/business-001-preview.jpg"
+}

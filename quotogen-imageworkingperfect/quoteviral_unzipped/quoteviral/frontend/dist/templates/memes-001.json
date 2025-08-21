@@ -1,0 +1,9 @@
+{
+  "id": "memes-001",
+  "name": "Comic Style",
+  "category": "memes",
+  "language": "en",
+  "dimensions": "1080x1080",
+  "tags": ["comic", "funny", "bold"],
+  "preview": "/templates/memes-001-preview.jpg"
+}
