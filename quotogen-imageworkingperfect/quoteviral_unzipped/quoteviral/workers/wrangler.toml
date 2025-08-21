@@ -1,0 +1,40 @@
+name = "quoteviral-online"
+main = "src/index.ts"
+compatibility_date = "2024-08-16"
+
+[vars]
+DOMAIN = "https://quoteviral.online"
+
+[[routes]]
+pattern = "api.quoteviral.online/*"
+zone_name = "quoteviral.online"
+
+[[kv_namespaces]]
+binding = "QUOTE_CACHE"
+id = "4bf1891959874c1c881ac0ec6e9eaf88"
+
+[[r2_buckets]]
+binding = "quoteviral_assets"  
+bucket_name = "quoteviral-assets"
+
+[[r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "quoteviral-uploads"
+
+[[r2_buckets]]
+binding = "GENERATED"
+bucket_name = "quoteviral-generated"
+
+[[r2_buckets]]
+binding = "TEMPLATES"
+bucket_name = "quoteviral-templates"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "quoteviral-db"
+database_id = "cb86e9f6-af24-4c05-a03c-c60b8a1e8f89"
+
+# Cloudflare Images binding (paid plan required)
+[[unsafe.bindings]]
+name = "IMAGES"
+type = "images"
